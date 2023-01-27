@@ -2,7 +2,7 @@ import flask
 from flask import Flask,render_template
 import os
 app = Flask(__name__, template_folder='templates', 
-static_folder='website')
+static_folder='static')
 
 
 @app.route('/')
