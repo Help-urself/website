@@ -1,0 +1,63 @@
+.help_urself{
+    border-radius: 80%;
+    width: 10%;
+    height: 10%;
+}
+
+.help_urself img{
+    border-radius: 100%;
+    box-shadow: black;
+    box-shadow: 6px 11px 230px 30px red;
+    width: 342px;
+    
+}
+
+.Name{
+    color:white;
+    font-size: 1.6em; 
+    margin-left: 40%;
+    
+}
+
+
+
+.fone{
+    
+    height: 100%;
+    background-color: black;
+    opacity: 0.9;
+    text-shadow: 1px 1px 2px red;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 8em;
+    color:red;
+}
+
+.textWriter{
+    opacity: 0.8;
+    color:red;
+    font-size: 0.6em;
+
+}
+
+
+body{
+    margin: 0;
+    background-color: black;
+    background: url(/static/back.png/) no-repeat;
+    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.content-blocker {
+    position: absolute;
+    top: 114px;
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 4444;
+  }

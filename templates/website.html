@@ -1,0 +1,60 @@
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+{% endblock %}
+<!doctype html>
+<html>
+<head>
+<style type="text/css">
+#block {width:100px; height:100px; border:1px solid #ccc;}
+</style>
+
+<script type="text/javascript">
+var i = 0;
+var txt = 'Привет,я help_urself,занимаюсь веб-дийзном и разработкой ботов на 2 языках (JavaScript,Python)';
+var speed = 90;
+
+function type() {
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    // код для мобильных устройств
+    window.location.href = 'telephone';
+  } else {
+    // код для обычных устройств
+    window.location.href = 'PC';
+    
+}
+}
+
+
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+<meta charset="utf-8">
+<title>Help_urself</title>
+</head>
+<body onload="typeWriter(); ">
+
+  <div id="PC">
+
+
+    <center><div class="fone">
+        <br>
+        <p></p>
+        <center><a class="text">Help_urself</a></center>
+        <br>
+        <div id="demo" class="textWriter"></div>
+        
+        
+    </div>
+  </div>
+    
+</center>
+
+</body>
+</html>
