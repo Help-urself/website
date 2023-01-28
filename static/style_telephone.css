@@ -19,7 +19,11 @@
     
 }
 
+.help_text{
+    font-size: 5em;
+    opacity: 0.9;
 
+}
 
 .fone{
     
@@ -27,15 +31,14 @@
     background-color: black;
     opacity: 0.9;
     text-shadow: 1px 1px 2px red;
-    font-family: "Lucida Console", "Courier New", monospace;
-    font-size: 8em;
+    font-family: "Lucida Console", "Courier New", monospace; 
     color:red;
 }
 
 .textWriter{
     opacity: 0.8;
     color:red;
-    font-size: 0.6em;
+    font-size: 3.6em;
 
 }
 
